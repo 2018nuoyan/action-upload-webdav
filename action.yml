@@ -30,7 +30,7 @@ inputs:
     default: "true"
     required: false
 runs:
-  using: 'node16'
+  using: 'node20'
   #   pre: 'dist/pre/index.js'
   main: 'dist/index.js'
 branding:
